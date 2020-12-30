@@ -18,6 +18,10 @@ namespace PatiFrontEnd.Controllers
             _logger = logger;
         }
 
+        public IActionResult PetViev()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
