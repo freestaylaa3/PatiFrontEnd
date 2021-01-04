@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewData["Title"] = "AdminPanel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-2">
+    <div class="col-md-3 mt-2">
+        <div class="card" style="width: 18rem;">
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md mt-2">
+        <div class="card">
+            <div class="card-header">
+                Evcil Hayvan Ekleme
+            </div>
+            <div class="card-body">
+                <div class="container">
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Adı:</span>
+                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Cinsi:</span>
+                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Yaşı:</span>
+                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Aşıları:</span>
+                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Aşıları Var Mı?...</option>
+                            <option value="1">Var</option>
+                            <option value="2">Yok</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Cinsiyeti:</span>
+                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Cinsiyet Seçin...</option>
+                            <option value="1">Erkek</option>
+                            <option value="2">Dişi</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Doğum Tarihi:</span>
+                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Gün...</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                        </select>
+                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Ay...</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                        </select>
+                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Yıl...</option>
+                            <option value="1">2000</option>
+                            <option value="2">2001</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Hakkında:</span>
+                        <textarea class="form-control" aria-label="Hakkında"></textarea>
+                    </div>
+
+                    <div class="d-grid d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary" type="button">Evcil Hayvanı Ekle</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
