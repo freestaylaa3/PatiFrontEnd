@@ -17,7 +17,10 @@ namespace PatiFrontEnd.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult AdminPanel2()
+        {
+            return View();
+        }
         public IActionResult AdminPanel()
         {
             return View();
