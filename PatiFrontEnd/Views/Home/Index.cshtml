@@ -3,51 +3,141 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-    <div class="row  home-row" style="text-align: center">
+<section class="dark-bg" id="hero">
+    <div class="container">
+        <div class="d-flex h-100 flex-column text-light justify-content-center">
+            <h1 class="display-1">Pati</h1>
+            <p class="lead">
+                Öncelikle biz kimiz sorusunun cevabını kısaca verelim hayvanların para karşılığında bir eşyaymış
+                gibi satılmasını istemeyenleriz. Barınaktaki hayvanlarında diğer hayvanlarla eşit sevilme hakkı olduğuna
+                inanıyoruz.
+            </p>
+        </div>
+    </div>
+</section>
 
-        <div class="col-md shadow-lg w-100 m-1 rounded-left ml-lg-3">
-
-            <div class="p-2 pt-3">
-                <h1 class=" pb-1 ">Consectetur adipiscing elit fusce vel.</h1>
+<section class="generic" id="hsf">
+    <div class="container">
+        <h2 class="display-5 text-danger mb-5">Hayvan Sahiplenmenin Faydaları</h2>
+        <div class="row mb-3">
+            <div class="col-8 bg-light">
+                <div class="d-flex h-100 flex-column justify-content-center">
+                    <h3>Evcil Hayvanlar Sorumluluk Sahibi Olmayı Sağlar</h3>
+                    <p>
+                        Evcil hayvanların yaşamını gereken konforda sürdürmesi için beslenmeleri, dolaştırılması, temizlenmesi,
+                        sağlık kontrollerinin aksatılmaması şart. Tüm bunlar kişideki sorumluluk duygusunu güçlendiriyor.
+                    </p>
+                </div>
             </div>
-
-            <div>
-                <p>Sapien elit in malesuada semper mi, id sollicitudin urna fermentum. Mi, id sollicitudin urna fermentum ut fusce varius nisl ac ipsum gravida vel pretium tellus.</p>
+            <div class="col-4 p-0">
+                <img class="img-fluid " src="./img/k.jpg">
             </div>
-
         </div>
 
-        <div class="col-md shadow-lg w-100 m-1 rounded-right mr-lg-3">
-
-            <div class="p-2 pt-3">
-                <h1 class="pb-1 ">Consectetur adipiscing elit fusce vel.</h1>
+        <div class="row mb-3">
+            <div class="col-8 bg-light">
+                <div class="d-flex h-100 flex-column justify-content-center">
+                    <h3>Stressiz Bir Yaşam</h3>
+                    <p>
+                        Evcil hayvanlarla iletişim kurmak, insanların üzerindeki stresin dağılması için birebir bir çözüm
+                        sunuyor. Yapılan araştırmalar, evcil hayvanı olanlar yaşama çok daha pozitif bakıyorlar.
+                    </p>
+                </div>
             </div>
-
-            <div>
-                <p>Sapien elit in malesuada semper mi, id sollicitudin urna fermentum. Mi, id sollicitudin urna fermentum ut fusce varius nisl ac ipsum gravida vel pretium tellus.</p>
+            <div class="col-4 order-first p-0">
+                <img class="pic-size img-fluid " src="./img/photo-1472491235688-bdc81a63246e.jfif">
             </div>
+        </div>
 
+        <div class="row mb-3">
+            <div class="col-8 bg-light">
+                <div class="d-flex h-100 flex-column justify-content-center">
+                    <h3>Empati Yapma Yetisinin Gelişmesi</h3>
+                    <p>
+                        Bir evcil hayvana sahip olmak, insanlarda empati yetisini geliştiriyor. Böylelikle dünyada başka
+                        canlıların da var olduğunu, onların da yaşamını devam ettirmesi gerektiğini daha iyi anlayabiliyoruz.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 p-0">
+                <img class="img-fluid " src="./img/k2.jpg">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-8 bg-light">
+                <div class="d-flex h-100 flex-column justify-content-center">
+                    <h3>Yanlızlık Duygusundan Kurtulmak</h3>
+                    <p>
+                        Yaşam içinde kimi zaman insanlar kendilerini yalnız hissedebilir. Ancak evcil hayvana sahip olanlar, bu
+                        bakımdan hayli şanslılar. Çünkü evcil hayvanınız bir süre sonra ailenizin bir parçası olarak, sürekli size
+                        eşlik eden bir birey haline geliyor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 order-first p-0">
+                <img class="pic-size img-fluid " src="./img/3.jfif">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-8 bg-light">
+                <div class="d-flex h-100 flex-column justify-content-center">
+                    <h3>Çocukların Sevgi İle Büyümesini Sağlar</h3>
+                    <p>
+                        Evcil hayvanı olan çocuklar, çok daha merhamet dolu, duyarlı ve sorumluluk sahibi bireyler olarak
+                        yetişiyorlar. Gelecekte daha iyi bir dünya için, çocukların bu duygularla büyümesi hayli önemli.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 p-0">
+                <img class="img-fluid " src="./img/4.jpg">
+            </div>
         </div>
 
     </div>
+</section>
 
-
-    <div class="row home-row" style="text-align: center">
-
-        <div class="col-md shadow-lg w-100 m-1 rounded-left ml-lg-3">
-            
-            <div class="p-2 pt-3">
-                <h1>Pet Quiz</h1>
+<section class="questions" id="sss">
+    <div class="container mb-5">
+        <h2 class="display-5 text-danger mb-5">Sık Sorulan Sorular</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p>Bu test, kişilik özelliklerinize ve yaşantınıza en uygun evcil hayvanı öğrenmeniz için tasarlandı. İdeal dostunuz hangisi?</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
             </div>
-            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md shadow-lg w-100 m-1 rounded-right mr-lg-3">
-            2. col
-        </div>
-
     </div>
+</section>
